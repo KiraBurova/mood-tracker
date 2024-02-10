@@ -1,7 +1,8 @@
 const Footer = () => {
   return (
-    <footer>
-      <h1>Footer</h1>
+    <footer className="flex flex-col pt-6 p-4 bg-purple-800 text-white uppercase text-xs">
+      <span>Moodwise</span>
+      <span>2023</span>
     </footer>
   );
 };

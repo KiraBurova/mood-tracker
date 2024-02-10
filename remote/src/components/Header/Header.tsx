@@ -1,7 +1,7 @@
 const Header = () => {
   return (
-    <header>
-      <h1>Header</h1>
+    <header className="flex items-center pt-6 p-4 bg-purple-800 text-white font-bold uppercase text-xl">
+      <div>Moodwise</div>
     </header>
   );
 };

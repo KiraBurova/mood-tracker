@@ -4,9 +4,11 @@ import Footer from 'remoteApp/Footer';
 
 const HomeScreen = () => {
   return (
-    <div>
+    <div className="flex flex-col h-screen">
       <Header />
-      <>Home screen</>
+      <div className="flex-1 p-4">
+        <>Home screen</>
+      </div>
       <Footer />
     </div>
   );

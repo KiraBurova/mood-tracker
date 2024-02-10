@@ -1,4 +1,4 @@
-import HomeScreen from './features/home-screen/HomeScreen';
+import HomeScreen from './pages/HomeScreen/home-screen/HomeScreen';
 
 function App() {
   return <HomeScreen />;

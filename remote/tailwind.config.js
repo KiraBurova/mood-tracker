@@ -1,12 +1,15 @@
+import { fontFamily as _fontFamily } from 'tailwindcss/defaultTheme';
+
 /*eslint-env node*/
-module.exports = {
-  purge: [],
-  darkMode: false, // or 'media' or 'class'
-  theme: {
-    extend: {},
+export const content = ['./index.html', './src/**/*.{js,ts,jsx,tsx}'];
+export const theme = {
+  extend: {
+    fontFamily: {
+      sans: ['Inter var', ..._fontFamily.sans],
+    },
   },
-  variants: {
-    extend: {},
-  },
-  plugins: [],
 };
+export const variants = {
+  extend: {},
+};
+export const plugins = [];
