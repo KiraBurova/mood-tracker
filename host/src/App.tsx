@@ -1,7 +1,15 @@
-import HomeScreen from './pages/HomeScreen/home-screen/HomeScreen';
+import Header from 'remoteApp/Header';
+import Footer from 'remoteApp/Footer';
+import ChooseMood from './features/ChooseMood/ChooseMood';
 
 function App() {
-  return <HomeScreen />;
+  return (
+    <>
+      <Header />
+      <ChooseMood />
+      <Footer />
+    </>
+  );
 }
 
 export default App;
