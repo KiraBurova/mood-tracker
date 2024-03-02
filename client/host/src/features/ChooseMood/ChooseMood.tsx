@@ -1,5 +1,3 @@
-import React from 'react';
-
 const Moods = [
   {
     id: 1,

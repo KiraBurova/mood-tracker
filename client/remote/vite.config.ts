@@ -12,6 +12,11 @@ export default defineConfig({
       exposes: {
         './Header': './src/components/Header/Header',
         './Footer': './src/components/Footer/Footer',
+        './Input': './src/components/Input/Input.tsx',
+        './Button': './src/components/Button/Button.tsx',
+        './Label': './src/components/Label/Label',
+        './FormErrorMessage':
+          './src/components/FormErrorMessage/FormErrorMessage',
       },
       shared: ['react', 'react-dom'],
     }),
